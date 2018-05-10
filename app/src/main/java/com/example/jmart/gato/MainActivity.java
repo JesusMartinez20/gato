@@ -191,6 +191,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             boton4.setEnabled(false);
             boton8.setEnabled(false);
             boton9.setEnabled(false);
+        }else if(conta<9){
+            conta++;
+        }else{
+            caja.setText("Empate");
         }
     }
 }
