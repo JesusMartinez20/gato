@@ -13,18 +13,18 @@
         android:orientation="horizontal">
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:id="@+id/boton1"
             android:text=" "/>
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:id="@+id/boton2"
             android:text=" "/>
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:id="@+id/boton3"
             android:text=" "/>
     </LinearLayout>
@@ -36,18 +36,18 @@
         android:layout_below="@+id/fila1">
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:id="@+id/boton4"
             android:text=" "/>
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:id="@+id/boton5"
             android:text=" "/>
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:id="@+id/boton6"
             android:text=" "/>
     </LinearLayout>
@@ -59,20 +59,27 @@
         android:layout_below="@+id/fila2">
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:id="@+id/boton7"
             android:text=" "/>
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:id="@+id/boton8"
             android:text=" "/>
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:id="@+id/boton9"
             android:text=" "/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/fila3">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -81,5 +88,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/caja"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/salir"
+            android:text="Salir de la aplicación"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/repetir"
+            android:text="Volver a jugar "
+            />
     </LinearLayout>
 </RelativeLayout>
